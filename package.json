@@ -1,0 +1,14 @@
+{
+  "name": "java-web-learning",
+  "version": "1.0.0",
+  "description": "Java Web 学习网站 — 面向大一学生，聚焦 Spring Boot + MyBatis Plus",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.0"
+  }
+}
