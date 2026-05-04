@@ -5,8 +5,31 @@ export default defineConfig({
   description: '从零基础到手写聊天后端 — 大一学生友好',
   lang: 'zh-CN',
 
-  // Ignore dead links referencing localhost (internal plan docs)
-  ignoreDeadLinks: [/\blocalhost\b/],
+  // Ignore dead links for pages not yet created (to be added in future tasks)
+  ignoreDeadLinks: [
+    /localhost/,
+    /modules\/02-servlet/,
+    /modules\/03-java17/,
+    /modules\/04-collections/,
+    /modules\/05-oop/,
+    /modules\/06-maven/,
+    /modules\/07-project-structure/,
+    /modules\/08-first-app/,
+    /modules\/09-annotations/,
+    /modules\/10-restful/,
+    /modules\/11-config/,
+    /modules\/12-orm/,
+    /modules\/13-crud/,
+    /modules\/14-query-builder/,
+    /modules\/15-mysql-connect/,
+    /modules\/16-db-design/,
+    /modules\/17-entities/,
+    /modules\/18-service/,
+    /modules\/19-controller/,
+    /modules\/20-test-run/,
+    /modules\/21-interview-questions/,
+    /modules\/22-deployment/,
+  ],
 
   themeConfig: {
     nav: [

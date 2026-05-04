@@ -11,7 +11,7 @@ hero:
       link: /modules/intro
     - theme: alt
       text: 练习项目
-      link: https://github.com/your-repo/exercises
+      link: /exercises/
   image:
     alt: JavaWeb Learning
 ---
