@@ -5,6 +5,9 @@ export default defineConfig({
   description: '从零基础到手写聊天后端 — 大一学生友好',
   lang: 'zh-CN',
 
+  // Ignore dead links referencing localhost (internal plan docs)
+  ignoreDeadLinks: [/\blocalhost\b/],
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
