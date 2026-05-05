@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 <template>
   <div class="home-hero-custom">
     <!-- Terminal Header -->
@@ -47,10 +51,10 @@
       </p>
 
       <div class="hero-actions">
-        <a href="/modules/intro" class="btn btn-primary">
+        <a :href="withBase('/modules/intro')" class="btn btn-primary">
           <span>▶</span> 开始学习
         </a>
-        <a href="/exercises" class="btn btn-secondary">
+        <a :href="withBase('/exercises')" class="btn btn-secondary">
           <span>{ }</span> 练习项目
         </a>
       </div>
