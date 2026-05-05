@@ -10,6 +10,7 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap' }],
+    ['link', { rel: 'stylesheet', href: '/theme.css' }],
   ],
 
   // Ignore dead links for pages not yet created (to be added in future tasks)
@@ -44,7 +45,17 @@ export default defineConfig({
     },
   },
 
-   theme: 'default',
+  theme: 'default',
+
+  vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          additionalData: `@import "./theme/theme.css";`,
+        },
+      },
+    },
+  },
 
   themeConfig: {
     nav: [
