@@ -5,6 +5,13 @@ export default defineConfig({
   description: '从零基础到手写聊天后端 — 大一学生友好',
   lang: 'zh-CN',
 
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap' }],
+  ],
+
   // Ignore dead links for pages not yet created (to be added in future tasks)
   ignoreDeadLinks: [
     /localhost/,
@@ -30,6 +37,14 @@ export default defineConfig({
     /modules\/21-interview-questions/,
     /modules\/22-deployment/,
   ],
+
+  css: {
+    config: {
+      appearance: 'dark',
+    },
+  },
+
+   theme: 'default',
 
   themeConfig: {
     nav: [
