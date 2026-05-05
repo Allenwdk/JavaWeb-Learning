@@ -4,5 +4,4 @@ dist/
 .vitepress/dist/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
-package-lock.json
 .DS_Store
