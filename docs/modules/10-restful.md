@@ -291,9 +291,9 @@ C. 动词+名词（如 /getUser）
 D. 任意命名
 
 <details>
-<parameter=answer>
-**答案：B** — RESTful 使用名词（资源）命名 URL。
+<summary>查看答案</summary>
 
+**答案：B** — RESTful 使用名词（资源）命名 URL。
 </details>
 
 ### 题目2：创建资源成功后应该返回哪个状态码？

@@ -218,7 +218,7 @@ curl -X PUT http://localhost:8080/api/messages/1/read
 
 ### 任务2：添加统一响应格式
 
-把每个接口的返回值改为 `ApiResponse<T>` 格式。
+把每个接口的返回值改为 `ApiResponse&lt;T&gt;` 格式。
 
 ## 自测题
 

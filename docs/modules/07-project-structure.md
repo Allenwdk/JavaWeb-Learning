@@ -140,7 +140,7 @@ public class DefaultUserService implements UserService {
 
 **特点：**
 - 用 `@Repository` 注解（MyBatis Plus 中通常不需要）
-- 继承 MyBatis Plus 的 `BaseMapper<T>`
+- 继承 MyBatis Plus 的 `BaseMapper&lt;T&gt;`
 - 只包含数据库操作，不包含业务逻辑
 
 ```java

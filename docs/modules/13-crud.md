@@ -86,7 +86,7 @@ public interface UserRepository extends BaseMapper<User> {
 | 方法 | SQL | 说明 |
 |------|-----|------|
 | selectById(Serializable id) | SELECT * FROM table WHERE id = ? | 根据 ID 查询 |
-| selectList(Wrapper<T> queryWrapper) | SELECT * FROM table ... | 根据条件查询列表 |
+| selectList(Wrapper&#60;T&#62; queryWrapper) | SELECT * FROM table ... | 根据条件查询列表 |
 | insert(T entity) | INSERT INTO table ... | 新增 |
 | updateById(T entity) | UPDATE table SET ... WHERE id = ? | 根据 ID 更新 |
 | deleteById(Serializable id) | DELETE FROM table WHERE id = ? | 根据 ID 删除 |
@@ -265,7 +265,7 @@ D. Mapper 接口名
 <details>
 <summary>查看答案</summary>
 
-**答案：B** — BaseMapper<User> 的泛型是实体类 User。
+**答案：B** — BaseMapper&lt;User&gt; 的泛型是实体类 User。
 
 </details>
 

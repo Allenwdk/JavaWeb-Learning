@@ -151,8 +151,8 @@ public String getInfo(
 | String | 直接返回字符串 | `"Hello"` |
 | 基本类型 | 返回基本类型值 | `200` |
 | 对象 | 自动转为 JSON | `user` → `{"name":"张三"}` |
-| List<T> | 自动转为 JSON 数组 | `[{"name":"张三"},...]` |
-| ResponseEntity<T> | 带状态码和头信息 | `ResponseEntity.ok(user)` |
+| List&#60;T&#62; | 自动转为 JSON 数组 | `[{"name":"张三"},...]` |
+| ResponseEntity&#60;T&#62; | 带状态码和头信息 | `ResponseEntity.ok(user)` |
 
 ```java
 // 返回对象（自动转 JSON）
