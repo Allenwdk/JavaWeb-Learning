@@ -22,10 +22,10 @@ import { withBase } from 'vitepress'
         </div>
         <div class="terminal-line">
           <span class="prompt">$</span>
-          <span class="command">git clone https://github.com/learning/java-web</span>
+          <span class="command">git clone https://github.com/Allenwdk/JavaWeb-Learning.git</span>
         </div>
         <div class="terminal-output">
-          <span class="output-text">Cloning into 'java-web'...</span>
+          <span class="output-text">Cloning into 'JavaWeb-Learning'...</span>
         </div>
         <div class="terminal-line blink">
           <span class="prompt">$</span>
